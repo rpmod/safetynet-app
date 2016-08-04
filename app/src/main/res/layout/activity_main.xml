@@ -38,6 +38,16 @@
             android:onClick="onBtnSubmitRequestClick"
             android:text="QUERY THE API"
             android:layout_marginBottom="10sp"/>
+        <Button
+            android:id="@+id/btnPassNet"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/tvInstructions"
+            android:onClick="onBtnPassNetClick"
+            android:text="Actually Pass!"
+            android:layout_marginBottom="10sp"/>
 
         <TextView
             android:id="@+id/tvProgressComment"
@@ -140,18 +150,5 @@
             </TableRow>
         </TableLayout>
 
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/visit_us_text"
-            android:id="@+id/tvVisitUs"
-            android:layout_above="@+id/tableLayout"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentLeft="true"
-            android:gravity="center_horizontal"
-            android:textColor="#295eac"
-            android:onClick="onClickVisitUs"
-            android:layout_marginBottom="5dp"/>
 
 </RelativeLayout>
